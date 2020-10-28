@@ -1,15 +1,25 @@
-/*navbar*/
+
 /* white: #e0ece4; pink: #ff4b5c; blue: #056674; sky-blue: #66bfbf */;
 .header-space {
 	margin-top: 120px;
 }
 
+main {
+	margin-top: 100px;
+}
+
+body {
+	font-family: ABeeZee;
+}
+
+/*navbar*/
 header {
 	background-color: #ff4b5c;
 	position: fixed;
 	top: 0;
 	height: 100px;
 	width: 110%;
+	left: -10px;
 
 	z-index: 99;
 	box-shadow: 0 0 5px rgba(0,0,0,0.2);
@@ -17,7 +27,7 @@ header {
 
 nav {
 	position: absolute;
-	right: 20%;
+	right: 10%;
 	top: 20px;
 	display: flex;
 	flex-direction: row;
@@ -33,3 +43,79 @@ a {
 	color:#e0ece4;
 	font-size: 1.3rem;
 }
+
+/*Section 1*/
+
+#welcome-section {
+	background-color: #056674;
+	position: relative;
+	width: 101.3%;
+	height: 87vh;
+	left: -9px;
+
+	color: #e0ece4;
+	font-size: 5vw;
+	overflow: hidden;
+}
+
+#welcome-section h1 {
+	position: relative;
+	text-align: center;
+	top: 15%;
+}
+
+#welcome-section p {
+	position: relative;
+	text-align: center;
+	top:15%;
+}
+
+/*Section 2*/
+
+#projects {
+	background-color: #580e2b ;
+	position: relative;
+	width: 101.3%;
+	height: 600px;
+	left: -9px;
+
+	color: #e0ece4;
+	font-size: 1.5rem;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+#projects img {
+	display: block;
+	position: relative;
+	width: 75%;
+	margin: 10px auto;
+}
+
+#projects p {
+	position: absolute;
+	top: 500px;
+	
+}
+
+#projects div {
+	margin-top: 100px;
+	width: 500px;
+	height: 300px;
+	background-color: rgba(0,0,0,0.5);
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+#projects a {
+	position: relative;
+	transition: 0.3s;
+}
+
+	#projects a:hover {
+		color: #ff4b5c;
+		transform: scale(1.05);
+	}
