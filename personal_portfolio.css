@@ -1,0 +1,35 @@
+/*navbar*/
+/* white: #e0ece4; pink: #ff4b5c; blue: #056674; sky-blue: #66bfbf */;
+.header-space {
+	margin-top: 120px;
+}
+
+header {
+	background-color: #ff4b5c;
+	position: fixed;
+	top: 0;
+	height: 100px;
+	width: 110%;
+
+	z-index: 99;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+nav {
+	position: absolute;
+	right: 20%;
+	top: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+li {
+	margin: 20px;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color:#e0ece4;
+	font-size: 1.3rem;
+}
